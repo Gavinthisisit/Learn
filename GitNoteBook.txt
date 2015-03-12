@@ -1,0 +1,12 @@
+git add filename -----------------将工作区文件上传到缓冲区
+git commit -m "标识信息" ---------将缓冲区文件上传到版本库
+git log filename -----------------输出改文件各版本信息
+git status -----------------------查看当前状态
+git checkout -- filename ---------撤销对将工作区文件的修改
+git reset HEAD^ ------------------将撤销上传至缓冲区的修改文件
+git reflog -----------------------显示文件历史版本信息
+git reset --hard commitID号 ------将文件恢复至该版本
+git reset --hard HEAD^------------将文件恢复至前一版本
+git reset --hard HEAD~100---------将文件恢复至前100版本
+git log --pretty=oneline ---------单行显示文件版本变化信息
+git log --------------------------显示文件版本修改信息
